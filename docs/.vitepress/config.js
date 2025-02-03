@@ -12,25 +12,10 @@ export default {
         },      
         nav: [
             { text: "基础知识", link: "/Basicknowledge/" },
+            { text: "搜索和非确定性算法", link: "/SearchRandom/" },
             { text: "数据结构", link: "/DataStructure/" },
+            { text: "图论", link: "/Graph/" },
             { text: "数学", link: "/Math/" },
-            {
-                text: "软件教程",
-                items: [
-                    {
-                        items: [
-                            { text: "Alight Motion", link: "/item-A1" },
-                            { text: "NodeVideo", link: "/item-A2" },
-                        ],
-                    },
-                    {
-                        items: [
-                            { text: "Adobe Premiere Pro", link: "/item-B1" },
-                            { text: "Adobe After Effects", link: "/item-B2" },
-                        ],
-                    },
-                ],
-            },
             { text: "关于 szzjz wiki", link: "" },
             { text: "szzjz", link: "https://www.luogu.com.cn/user/310410" },
             
@@ -115,6 +100,66 @@ export default {
                 {
                     text: "数学杂项",
                     link: "/Math/数学杂项",
+                },
+            ],
+            "/SearchRandom/": [
+                {
+                    text: "搜索和非确定性算法",
+                    link: "/SearchRandom/",
+                },
+                {
+                    text: "剪枝",
+                    link: "/SearchRandom/剪枝",
+                },
+                {
+                    text: "hash",
+                    link: "/SearchRandom/hash",
+                },
+                {
+                    text: "随机化算法",
+                    link: "/SearchRandom/随机化算法",
+                },
+                {
+                    text: "经典问题",
+                    link: "/SearchRandom/经典问题",
+                },
+            ],
+            "/Graph/": [
+                {
+                    text: "图论",
+                    link: "/Graph/",
+                },
+                {
+                    text: "tree related",
+                    link: "/Graph/tree_related",
+                },
+                {
+                    text: "最小生成树",
+                    link: "/Graph/最小生成树",
+                },
+                {
+                    text: "最短路相关",
+                    link: "/Graph/最短路相关",
+                },
+                {
+                    text: "连通性相关",
+                    link: "/Graph/连通性相关",
+                },
+                {
+                    text: "常见建模",
+                    link: "/Graph/常见建模",
+                },
+                {
+                    text: "图论杂项",
+                    link: "/Graph/图论杂项",
+                },
+                {
+                    text: "k-bfs.cpp",
+                    link: "/Graph/k-bfs.cpp.html",
+                },
+                {
+                    text: "kruskal.cpp",
+                    link: "/Graph/kruskal.cpp.md",
                 },
             ],
         },
