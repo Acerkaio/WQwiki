@@ -1,0 +1,29 @@
+{
+  "hash": "d35dda9b",
+  "browserHash": "5e363189",
+  "optimized": {
+    "vue": {
+      "src": "../../../../../漫剪wiki/node_modules/.pnpm/vue@3.3.7/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "b087a85d",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@6.5.1/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "628c8ac3",
+      "needsInterop": false
+    },
+    "@theme/index": {
+      "src": "../../../../node_modules/.pnpm/vitepress@1.0.0-rc.25_@algolia+client-search@4.20.0_search-insights@2.9.0/node_modules/vitepress/dist/client/theme-default/index.js",
+      "file": "@theme_index.js",
+      "fileHash": "698bb31f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-UPHLIMKP": {
+      "file": "chunk-UPHLIMKP.js"
+    }
+  }
+}
