@@ -5,20 +5,22 @@ export default {
     themeConfig: {
         siteTitle: "szzjz WiKi",
         logo: "/310410.webp",
-        
+
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Made by Acerkaio with ♡'
-        },      
+        },
         nav: [
             { text: "基础知识", link: "/Basicknowledge/" },
             { text: "搜索和非确定性算法", link: "/SearchRandom/" },
             { text: "数据结构", link: "/DataStructure/" },
             { text: "图论", link: "/Graph/" },
             { text: "数学", link: "/Math/" },
+            { text: "最优化与计数", link: "/Mad/" },
+            { text: "杂项", link: "/misc/" },
             { text: "关于 szzjz wiki", link: "" },
             { text: "szzjz", link: "https://www.luogu.com.cn/user/310410" },
-            
+
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/Acerkaio/szzjz" },
@@ -162,6 +164,70 @@ export default {
                     link: "/Graph/kruskal.cpp.md",
                 },
             ],
+            "/Mad/": [
+                {
+                    text: "最优化与计数",
+                    link: "/Mad/",
+                },
+                {
+                    text: '动态规划',
+                    items: [
+                        { text: '背包与背包型DP', link: '/Mad/DP/背包与背包型DP' },
+                        { text: '一些DP相关', link: '/Mad/DP/一些DP相关' },
+                    ]
+                },
+                {
+                    text: '计数',
+                    items: [
+                        { text: '概率与期望', link: '/Mad/计数/概率与期望' },
+                        { text: '计数杂项', link: '/Mad/计数/计数杂项' },
+                    ]
+                },
+                {
+                    text: '网络流',
+                    items: [
+                        { text: '网络流算法', link: '/Mad/网络流/网络流算法' },
+                        { text: '网络流建模', link: '/Mad/网络流/网络流建模' },
+                    ]
+                },
+                {
+                    text: '其他',
+                    items: [
+                        { text: '模拟费用流', link: '/Mad/模拟费用流' },
+                        { text: '数位问题', link: '/Mad/数位问题' },
+                        { text: '凸性相关', link: '/Mad/凸性相关' },
+                        { text: '一类游走问题', link: '/Mad/一类游走问题' },
+                        { text: 'kth问题总结', link: '/Mad/kth问题总结' },
+                    ]
+                },
+
+            ],
+            "misc": [
+                {
+                    text: "杂项",
+                    link: "/misc/",
+                },
+                {
+                    text: "01刻画大小关系",
+                    link: "/misc/01刻画大小关系",
+                },
+                {
+                    text: "博弈论",
+                    link: "/misc/博弈论",
+                },
+                {
+                    text: "绝对众数相关",
+                    link: "/misc/绝对众数相关",
+                },
+                {
+                    text: "判定点在回路内的技巧",
+                    link: "/misc/判定点在回路内的技巧",
+                },
+                {
+                    text: "string theory",
+                    link: "/misc/string_theory",
+                },
+            ]
         },
     },
 }

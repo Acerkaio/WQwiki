@@ -1,2 +1,2 @@
-# Getting Start
+# 数学
 ## SZZJZ 喜欢你

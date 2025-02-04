@@ -1,2 +1,2 @@
-# Getting Start
+# 搜索和非确定性算法
 ## SZZJZ 喜欢你

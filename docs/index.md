@@ -6,7 +6,7 @@ hero:
   text: sto 弓长队 orz.
   tagline: 我喜欢你
   image:
-    src: /310410.webp
+    src: /310410IMG.webp
     alt: szzjz
   actions:
     - theme: brand
